@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f3f3;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    color: #000000;
+    line-height: 1.5;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff; /* Apenas pra ver a proporção */
+    justify-content: space-around;
+    text-transform: initial;
+    margin-top: 20rem;
+    padding: 5rem;
+}
+
+.main-content h1 {
+    color: orange;
+}
+
+
+@media (max-width: 800px) {
+    .container {
+        background-color: red;
+    }
+}
