@@ -18,22 +18,92 @@ body {
     line-height: 1.5;
 }
 
+input {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background-color: #f7f3f3;
+    font-size: 1.5rem;
+}
+
+div {
+    text-align: center;
+}
+
 .container {
     display: flex;
-    background-color: #ffffff; /* Apenas pra ver a proporção */
     justify-content: space-around;
-    text-transform: initial;
     margin-top: 20rem;
     padding: 5rem;
+}
+
+.signup-bar {
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.forgot-password {
+    color: blue;
 }
 
 .main-content h1 {
     color: orange;
 }
 
+.button {
+    margin: 1rem auto;
+    color: #f7f3f3;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
 
-@media (max-width: 800px) {
+.log-in {
+    background-color: orange;
+}
+
+.register {
+    background-color: rgb(19, 212, 138);
+}
+
+.log-in:hover {
+    background-color: #f39a26;
+}
+
+.register:hover {
+    background-color: rgb(22, 170, 113);
+    
+}
+
+fieldset {
+    border-style: outset;
+    border-color: #e2e2e2;
+    width: 75%;
+    margin: 1.5rem auto;
+}
+
+@media (max-width: 900px) {
     .container {
-        background-color: red;
+        display: block;
+        background-color: #ffffff;
+        margin-top: 0rem;
+
     }
+
+    .signup-bar {
+        background-color: #ffffff;
+    }
+
+    html {
+        background-color: #ffffff;
+    }
+
+    fieldset {
+        width: 25rem;
+    }
+    
+
 }
