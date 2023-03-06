@@ -40,7 +40,7 @@ div {
 .signup-bar {
     border-radius: 0.5rem;
     background-color: #ffffff;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .forgot-password {
@@ -63,6 +63,7 @@ div {
 
 .log-in {
     background-color: orange;
+
 }
 
 .register {
@@ -79,10 +80,10 @@ div {
 }
 
 fieldset {
-    border-style: outset;
     border-color: #e2e2e2;
     width: 75%;
     margin: 1.5rem auto;
+    border-color: rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 900px) {
@@ -105,5 +106,4 @@ fieldset {
         width: 25rem;
     }
     
-
 }
