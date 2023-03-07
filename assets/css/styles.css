@@ -59,16 +59,15 @@ div {
     font-weight: bold;
     font-size: 1.5rem;
     text-decoration: none;
+    width: 18rem;
 }
 
 .log-in {
     background-color: rgb(255, 165, 0);
-    width: 18rem;
 }
 
 .register {
     background-color: rgb(19, 212, 138);
-    width: 18rem;
 }
 
 .log-in:hover {
