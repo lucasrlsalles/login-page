@@ -62,12 +62,13 @@ div {
 }
 
 .log-in {
-    background-color: orange;
-
+    background-color: rgb(255, 165, 0);
+    width: 18rem;
 }
 
 .register {
     background-color: rgb(19, 212, 138);
+    width: 18rem;
 }
 
 .log-in:hover {
@@ -91,7 +92,6 @@ fieldset {
         display: block;
         background-color: #ffffff;
         margin-top: 0rem;
-
     }
 
     .signup-bar {
