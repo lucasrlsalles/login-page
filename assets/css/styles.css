@@ -1,3 +1,11 @@
+:root {
+    --primary-color: #09b65f;
+    --dark-primary-color: #07a355;
+    --second-color: #d3d0d0;
+    --black-color: #000000;
+    --white-color: #ffffff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,102 +14,63 @@
 
 html {
     font-size: 62.5%;
-    width: 100vw;
-    height: 100vh;
-    background-color: #f7f3f3;
+    height: 100%;
+    background-image: url(../img/sunset-lake-body-of-7952x5304-10819.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
-    color: #000000;
-    line-height: 1.5;
+    color: var(--white-color);
 }
 
-input {
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 0.5rem;
-    background-color: #f7f3f3;
-    font-size: 1.5rem;
+a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
-div {
-    text-align: center;
+.logo {
+  background: rgba(0, 0 , 0, 0.4);
+  padding: 0 1em;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20rem;
-    padding: 5rem;
+.logo a {
+  color: #ffffff;
 }
 
-.signup-bar {
-    border-radius: 0.5rem;
-    background-color: #ffffff;
-    padding: 2rem 0;
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  word-wrap: break-word;
+  padding: 17em 3em;
 }
 
-.forgot-password {
-    color: blue;
+.text-content {
+  padding: 5px;
+  max-width: 50%;
 }
 
-.main-content h1 {
-    color: orange;
+.login-button button {
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #000000;
+  border: 0;
+  height: 8em;
+  width: 12em;
+  border-radius: 1.5em;
 }
 
-.button {
-    margin: 1rem auto;
-    color: #f7f3f3;
-    border: none;
-    border-radius: 0.5rem;
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-decoration: none;
-    width: 18rem;
+.login-button button:hover {
+  background-color: #252525;
+  cursor: pointer;
 }
 
-.log-in {
-    background-color: rgb(255, 165, 0);
-}
-
-.register {
-    background-color: rgb(19, 212, 138);
-}
-
-.log-in:hover {
-    background-color: #f39a26;
-}
-
-.register:hover {
-    background-color: rgb(22, 170, 113);
-}
-
-fieldset {
-    border-color: #e2e2e2;
-    width: 75%;
-    margin: 1rem auto;
-    border-color: rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 900px) {
-    .container {
-        display: block;
-        background-color: #ffffff;
-        margin-top: 0rem;
-    }
-
-    .signup-bar {
-        background-color: #ffffff;
-    }
-
-    html {
-        background-color: #ffffff;
-    }
-
-    fieldset {
-        width: 25rem;
-    }
-    
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
